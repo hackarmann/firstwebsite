@@ -1,0 +1,43 @@
+if (obj && typeof obj == 'object' && !Array.isArray(obj))
+function Mammal (){
+this.hashair = true;
+this.warmBlooded = true;
+}
+var mammel = new Mammel(10);
+var babymammal = new Mammal (1);
+console.log(mammel);
+console.log(babyMammal);
+
+babyMammel.age++;
+var mammels = ages.map(function(age)){
+return new Mammal (age);
+}
+console.log
+
+Mammal.prototype.hashair = true;
+Mammal.prototype.warBlooded = true;
+
+var leo = {
+name: 'Leonardo DiCaprio'
+age: 41;
+hello: function (){
+console.log('Hi,my name is' + this.name);
+}
+};
+helloHowAreYou: function(){
+    setTimeout(function){
+        this.hello();
+        console.log('how are you');
+        }, 1000);
+    }
+};
+leo.helloHowAreYou();
+
+leo.hello();
+
+leo.hello.call(jlaw);
+leo.hello.apply(jlaw, [1, 2, 3]);
+
+var str= 'a,b,c'
+console.log(str.split())
+str = [.slice.call(str)];

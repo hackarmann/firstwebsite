@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    height: 100px;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+.headline {
+    position: relative;
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 40%;
+
+
+
+}
+
+
+#burger {
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+#sprint {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+#reichstag {
+    width: 100%;
+    vertical-align: bottom;
+}
+.bottom-section img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+
+}
+
+.bottom-section p {
+    height: 50px;
+    width: 100px;
+    display:inline-block;
+
+}
+
+.info {
+    background-color: grey;
+    height: 50%;
+    width: 100%;
+}
+
+.row {
+display: inline-block;
+padding: 10%;
+margin: auto;
+position: relative;
+left: 13%;
+}
